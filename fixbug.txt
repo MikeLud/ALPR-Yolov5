@@ -1,0 +1,6 @@
+C:\Users\trant\anaconda3\lib\site-packages\torch\nn\modules\activation.py", line 438, in forward
+    return F.hardswish(input, self.inplace)
+
+
+
+line 438: return F.hardswish(input, self.inplace) replace with F.hardswish(input)
