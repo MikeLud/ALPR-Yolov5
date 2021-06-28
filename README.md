@@ -45,7 +45,7 @@ This guide explains how to train your own custom dataset with YOLOv5 for plate d
 ## Before You Start
 Clone this repo, prepared datasetin yolo format( you can check inside voc folder for sample image and label), and install dependencies, including Python>=3.8 and PyTorch>=1.7.
 ```
-$ git clone https://github.com/bharatsubedi/ALPR-Yolov5  # clone repo
+$ git clone https://github.com/ttkien2035/ALPR-Yolov5.git  # clone repo
 ```
 # Train On Custom Data
 - update `data/voc.yaml`
@@ -93,3 +93,8 @@ For more information check each folder inside
 EnglishLP dataset pretrained weight download link for 
 * detection weight https://drive.google.com/file/d/1dnTTVbGq4NLDDlJHMZBAwPcRVjL_yQgZ/view?usp=sharing
 * recognition weight https://drive.google.com/file/d/1aNvYucWlfVy8w_Ijh0wEE9j7rtMCKLjR/view?usp=sharing
+
+### Result:
+![34541](https://user-images.githubusercontent.com/50730472/123572180-eee6e200-d7f5-11eb-96ae-092f13674fa5.png)
+![4](https://user-images.githubusercontent.com/50730472/123572196-f6a68680-d7f5-11eb-9b6d-a52a22e57439.png)
+
