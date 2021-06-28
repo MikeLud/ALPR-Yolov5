@@ -2,7 +2,7 @@
 This is the Automatic license plate detection and recognition system using Yolov5. Both plate detection and character detection and recognition using Yolov5.
 I used `EnglishLP` dataset for experiment but you can try with any other dataset also
 
-![Alt text](end-t-end-test/result/P1010002.png?raw=true "Title")
+
 # dependencies
 ```
 NVIDIA GPUs
@@ -25,16 +25,12 @@ tqdm>=4.41.0
 
 This project is tested under following conditions:
 ```
-Ubuntu 20.04 LTS
-NVIDIA GeForce RTX 2080 Super
-NVIDIA graphic driver version: 440.95.01
-CUDA version: 10.2
-cuDNN version: 7.6.5
-OpenCV version: 4.2
+Ubuntu 18.04 LTS
+
 ```
 ## Installations
 
-### Install NVIDIA graphic driver, CUDA toolkit, cuBLAS, and cuDNN
+### Install NVIDIA graphic driver, CUDA toolkit, cuBLAS, and cuDNN ( if you have)
 
 ### Configure conda virtual environment
 
